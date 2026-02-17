@@ -20,6 +20,8 @@ import Applied from "../assets/images/Applied-scientific.svg";
 import Execution from "../assets/images/logo/Execution-focused.svg";
 import Pharma from "../assets/images/logo/Pharma.svg";
 import Regulatory from "../assets/images/logo/Regulatory.svg";
+import Capture1 from "../assets/images/Capture1.PNG";
+import Capture2 from "../assets/images/Capture2.PNG";
 
 import circle from "../assets/images/circle.svg"
 
@@ -109,10 +111,10 @@ export default function Home() {
   const sectionRef = useRef(null);
 
   // OPTIMIZATION 2: Intersection Observer for Heavy Blog Section
-  const { ref: insightsRef, inView: insightsVisible } = useInView({
-    triggerOnce: true,
-    rootMargin: "300px 0px", // Load slightly earlier for smoother UX
-  });
+  // const { ref: insightsRef, inView: insightsVisible } = useInView({
+  //   triggerOnce: true,
+  //   rootMargin: "300px 0px",
+  // });
 
   // Slider Settings
   // Memoized settings aren't strictly necessary here but good practice
@@ -358,7 +360,7 @@ export default function Home() {
       <PartnersSection />
 
       {/* BLOGS SECTION - Uses Intersection Observer */}
-      <div className="grey pad80 pt-0" ref={insightsRef} style={{ minHeight: "400px" }}>
+      {/* <div className="grey pad80 pt-0" ref={insightsRef} style={{ minHeight: "400px" }}>
         <Container>
           <h2 className="h4 text-center" data-aos="fade-up">INSIGHTS THAT <br /><span>DRIVE IMPACT</span></h2>
           <div className="row mt-5">
@@ -367,6 +369,25 @@ export default function Home() {
             
             <Col md={12}>
               {insightsVisible && <Bloghomepage />}
+            </Col>
+           
+          </div>
+        </Container>
+      </div> */}
+
+
+      <div className="grey pad80 pt-0" style={{ minHeight: "400px" }}>
+        <Container>
+          <h2 className="h4 text-center" data-aos="fade-up">INSIGHTS THAT <br /><span>DRIVE IMPACT</span></h2>
+          <div className="row mt-5">
+          
+            <Col md={12}>
+              <Image src={Capture1} alt="capture" className="w-100 h-100" />
+
+            </Col>
+            <Col md={12} className="mt-5">
+              <Image src={Capture2} alt="capture" className="w-100 h-100" />
+
             </Col>
           </div>
         </Container>
