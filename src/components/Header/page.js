@@ -1,19 +1,21 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { usePathname } from "next/navigation";
+
 
 import logo from "../../assets/images/logo.svg";
 
 export default function Header() {
   const [showAbout, setShowAbout] = useState(false);
   const [showServices, setShowServices] = useState(false);
-const [showProduct, setShowProduct] = useState(false);
+  const [showProduct, setShowProduct] = useState(false);
   const [expanded, setExpanded] = useState(false);
 
   const [showServices1, setShowServices1] = useState(false);
@@ -21,7 +23,24 @@ const [showProduct, setShowProduct] = useState(false);
   const [showServices3, setShowServices3] = useState(false);
   const [showServices4, setShowServices4] = useState(false);
   const [showServices5, setShowServices5] = useState(false);
-const isMobile =  typeof window !== "undefined" && window.innerWidth < 992;
+// const isMobile =  typeof window !== "undefined" && window.innerWidth < 992;
+
+
+const pathname = usePathname();
+useEffect(() => {
+  setExpanded(false);
+
+  setShowAbout(false);
+  setShowServices(false);
+  setShowProduct(false);
+
+  setShowServices1(false);
+  setShowServices2(false);
+  setShowServices3(false);
+  setShowServices4(false);
+  setShowServices5(false);
+}, [pathname]);
+
 
 
   
@@ -215,7 +234,7 @@ const isMobile =  typeof window !== "undefined" && window.innerWidth < 992;
                     className="nav-link server-dropdown"
                     onClick={(e) => e.stopPropagation()}
                   > PRODUCTS</Link>  }
-                id="services-dropdown"
+                id="product-dropdown"
                 show={showProduct}
               
 
