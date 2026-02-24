@@ -506,6 +506,12 @@ padding: 30px;
 
 
 @media (max-width:767px) {
+    .form-check {
+    align-items: normal;
+}
+    .ai-hcm .col-9{
+            width: 100%;
+    }
     .sr-tab-dtls-dta{
         border-bottom: none;
         padding-bottom: 0;
@@ -989,7 +995,7 @@ footer .col-lg-3.col-md-12{
 }
     .mb-dflex .challenges-box:last-child {
         margin-left: 0px;
-        margin: 20px 0px 0px;
+        margin: 10px 0px 0px;
     }
 .challenges-box{
     height: auto !important;

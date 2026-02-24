@@ -304,7 +304,7 @@ import Clinical_Training from "./services/clinical/Training-Compliance.webp"
 import Clinical_Ambulatory from "./services/clinical/Ambulatory-Services.webp"
 import Clinical_Management from "./services/clinical/Clinical-Trial-Management.webp" // Renamed from Clinical
 import Clinical_Medical from "./services/clinical/Medical-Writing.webp"
-import Clinical_Pre from "./services/clinical/Pre-Clinical-&-In-Vitro Studies.webp"
+import Clinical_Pre from "./services/clinical/Pre-Clinical-&-In-Vitro-Studies.webp"
 import Clinical_Safety from "./services/clinical/Safety-Regulatory-Reporting.webp"
 import Clinical_Scientific from "./services/clinical/Scientific-Advisory.webp"
 
