@@ -281,7 +281,7 @@ export const TEAM_DATA = [
 
 export const BOARD_DATA = [
   {
-    name: "Shashidhar Lingaraj",
+    name: "Shashidhar KL",
     role: "Chief Executive Officer",
     img: IMAGES.SHASHIDHAR_KL,
     link: "https://www.linkedin.com/in/shashidhar-lingaraj-2b477314/"

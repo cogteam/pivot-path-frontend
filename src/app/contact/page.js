@@ -194,6 +194,29 @@ export default function Contact() {
                
               </Col>
 
+              <Col md={12} className="mt-4 mb-2" data-aos="fade-up">
+    <Form.Group controlId="agreement">
+        <Form.Check 
+            type="checkbox"
+            className="custom-checkbox"
+            label={
+                <span className="label-text">
+                   I accept the   {" "}
+                    <Link href="/privacy-policy" target="_blank" className="textprimary me-1 ">
+                        Privacy Policy 
+                    </Link> 
+                     and terms of use.
+                </span>
+            }
+            {...register("agreement", { 
+                required: "You must agree to the privacy policy to submit your application" 
+            })}
+        />
+         {errors.agreement && <p className="error">{errors.agreement.message}</p>}
+    </Form.Group>
+   
+</Col>
+
               <Col md={12} className="text-center" data-aos="fade-up">
                 <button className="btns3">
                   <span>SUBMIT</span>

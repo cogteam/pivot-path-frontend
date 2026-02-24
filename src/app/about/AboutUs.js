@@ -186,7 +186,7 @@ solutioning to deliver measurable outcomes for our customers.</p>
 
     <div className="pad80 grey2 epic-wrapper" >
           <Container>
-              <h2 className="h4 text-center" data-aos="fade-up">Our   <span>culture compass</span></h2>
+              <h2 className="h4 text-center" data-aos="fade-up">Our   <span>cultural compass</span></h2>
               <p className="text-center" data-aos="fade-up">At Pivot Path, culture guides how we think, decide, and act. Our Cultural Compass ensures that<br/> as a newly formed organization, we grow responsibly while delivering meaningful impact in life<br/> sciences. It reflects what we stand for, what we expect, and how we create value for our customers,<br/> partners, and patients.</p>
 
                 <h2 className="mt-5  text-center" data-aos="fade-up">Core Values</h2>
@@ -237,7 +237,7 @@ solutioning to deliver measurable outcomes for our customers.</p>
       <div className="pad80 grey2 pt-0 values-wrapper" id="values">
         <Container>
           {/* <h2 className="h4 text-center" data-aos="fade-up">Fundamental <span>VALUES</span></h2> */}
-           <h2 className="mb-3 text-center" data-aos="fade-up">Fundamental Values</h2>
+           <h2 className="mb-3 text-center" data-aos="fade-up">Fundamental <span>Values</span></h2>
           <p className="col-lg-7 text-center m-auto" data-aos="fade-up">
               They are the foundation of trust and responsibility at Pivot Path. They are non-negotiable guardrails that protect our people, our customers,
 and our mission. Without them, nothing else matters.
@@ -366,7 +366,7 @@ and our mission. Without them, nothing else matters.
       <div className="pad80 team-wrapper" id="bod">
         <Container>
           <h2 className="h4 text-center" data-aos="fade-up">BOARD OF <span>DIRECTORS</span></h2>
-          <p className="col-lg-7 text-center m-auto" data-aos="fade-up">At PivotPath, our core values form the bedrock.</p>
+          {/* <p className="col-lg-7 text-center m-auto" data-aos="fade-up">At PivotPath, our core values form the bedrock.</p> */}
 
           <Row className="mt-4 mt-md-5">
             {BOARD_DATA.map((director, i) => (

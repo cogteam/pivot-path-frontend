@@ -168,7 +168,7 @@ export default function Footer(){
                             <Col>
                                 <div className="quick-links addlink">
                                     <h6  data-aos="fade-up">CONTACT</h6>
-                                    <address className="d-inline-block"  data-aos="fade-up">Bangalore, India </address>| <address className="d-inline-block"  data-aos="fade-up">Mysuru, India </address>|
+                                    <address className="d-inline-block"  data-aos="fade-up">Bengaluru, India </address>| <address className="d-inline-block"  data-aos="fade-up">Mysuru, India </address>|
                                     <address className="d-inline-block" data-aos="fade-up">Hyderabad, India </address> |
                                     <a href="mailto:info@pivotpath.com" className="d-inline-block"  data-aos="fade-up">
                                        info@pivotpath.com 

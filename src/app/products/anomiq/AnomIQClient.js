@@ -71,10 +71,10 @@ export default function AnomIQClient() {
                 <Col md={6} lg={3}>
                     <div className="compliance-box" data-aos="fade-up">
                         <p className="head">AI-Powered Transparency</p>
-                        <Image src={IMAGES.AnomIQ_AiTransparency} alt="agile" className="" />
+                        <Image src={IMAGES.InLumin_AiDriven} alt="agile" className="" />
                         <div className="compliance-hover">
                             <p className="compliance-p">Drive smarter, faster decisions through real-time data and risk-based prioritisation.</p>
-                            <Image src={IMAGES.AnomIQ_AiTransparencyWhite} alt="agile" className="" />
+                            <Image src={IMAGES.InLumin_AiDrivenWhite} alt="agile" className="" />
                         </div>
                     </div>
                 </Col>

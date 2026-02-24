@@ -1,16 +1,16 @@
 // --- EXISTING IMPORTS ---
 import logo1 from './logo/logo1.png';
 import logo2 from './logo/logo2.png';
-import logo3 from './logo/logo3.jpg';
+import logo3 from './logo/logo3.png';
 import logo4 from './logo/logo4.png';
 import logo5 from './logo/logo5.png';
-import logo6 from './logo/logo6.jpg';
+import logo6 from './logo/logo6.png';
 import logo7 from './logo/logo7.png';
 import logo8 from './logo/logo8.png';
 import logo9 from './logo/logo9.png';
 import logo10 from './logo/logo10.png';
 import logo11 from './logo/logo11.png';
-import logo12 from './logo/logo12.jpg';
+import logo12 from './logo/logo12.png';
 import logo13 from './logo/logo13.png';
 import logo14 from './logo/logo14.png';
 import logo15 from './logo/logo15.png';
@@ -107,7 +107,7 @@ import vision_logo from "./vision-logo.svg";
 import mission_logo from "./mission-logo.svg";
 import vision_logo_white from "./vision-logo-white.svg";
 import mission_logo_white from "./mission-logo-white.svg";
-import Collaboration from "./logo/Accountability.svg";
+import Collaboration from "./logo/Accountability1.svg";
 import CustomerCentricity from "./logo/Compliance.svg";
 import Efficiency from "./logo/Respect.svg";
 import Excellence from "./Excellence.svg";
@@ -141,8 +141,8 @@ import Standard_quality from './standard-quality-control-concept-m.jpg';
 
 import Services from './services.webp';
 import Products from './product.webp';
-import Client_Banner from './client-banner.webp';
-
+import Client_Banner from './client-banner1.webp';
+import Client_Banner_mob from './client-banner1_mob.webp';
 import Aboutbanner from './about-us-banner.webp';
 import Challengesimages from "./vision-mission-img.webp";
 import Values1 from "./values1.webp";
@@ -336,7 +336,7 @@ import Mobile_Blood from "./services/mobile/Blood-Draws.webp"
 import Mobile_Clinical from "./services/mobile/Clinical-Assessments.webp" // Renamed from Clinical
 import Mobile_Other from "./services/mobile/Other-Biologic-Sampling.webp"
 import Mobile_PatientQuestionnaires from "./services/mobile/Patient-Questionnaires.webp"
-import Mobile_PatientTraining from "./services/mobile/Patient-Training.webp"
+import Mobile_PatientTraining from "./services/mobile/Patient-Training1.webp"
 import Mobile_Staff from "./services/mobile/staff.webp"
 import Mobile_Study from "./services/mobile/Study-Compliance-Checks.webp"
 import Mobile_StudyDrug from "./services/mobile/Study-Drug-Administration.webp"
@@ -357,8 +357,8 @@ import MobileClinicalBanner from './services/mobile/banner.webp';
 
 // --- NEW INTELLECTUAL PROPERTY IMPORTS ---
 import IP_Portfolio from "./services/intellectual/Portfolio-Management.webp"
-import IP_Commercialisation from "./services/intellectual/Commercialisation.webp"
-import IP_Litigation from "./services/intellectual/Litigation-Support.webp"
+import IP_Commercialisation from "./services/intellectual/Commercialisation1.webp"
+import IP_Litigation from "./services/intellectual/Litigation-Support3.webp"
 import IP_Protection from "./services/intellectual/Protection-and-Enforcement.webp"
 import IP_Strategy from "./services/intellectual/Strategy-and-Landscaping.webp"
 
@@ -417,7 +417,7 @@ import Sustainable_Capability_white from './services/Human/Sustainable-Capabilit
 
 
 // --- NEW TALENT ACQUISITION IMPORTS ---
-import Talent_Campus from './services/talent/Campus-Hiring.webp';
+import Talent_Campus from './services/talent/Campus-Hiring1.webp';
 import Talent_Employer from './services/talent/Employer-Branding.webp';
 import Talent_Leadership from './services/talent/Leadership-&-Senior.webp';
 import Talent_Middle from './services/talent/Middle-&-Junior.webp';
@@ -444,6 +444,20 @@ import HumanDigitisation_Multi from "./services/Multi-Geography.svg"
 import HumanDigitisation_Robust from "./services/Robust.svg"
 import HumanDigitisation_SMEs from "./services/SMEs.svg"
 import HumanDigitisation_Banner from './services/talent/banner.webp';
+
+
+
+import EndtoEnd1 from "./services/EndtoEnd1.svg"
+import Intelligent1 from "./services/Intelligent1.svg"
+import Customised1 from "./services/Customised1.svg"
+import Operational11 from "./services/Operational1.svg"
+import Unified1 from "./services/Unified1.svg"
+
+import EndtoEnd from "./services/EndtoEnd.svg"
+import Intelligent from "./services/Intelligent.svg"
+import Customised from "./services/Customised.svg"
+import Operational1 from "./services/Operational.svg"
+import Unified from "./services/Unified.svg"
 
 // --- NEW NOTEIQ IMPORTS ---
 import NoteIQ_Agile from "./agile.svg";
@@ -514,8 +528,8 @@ import NovaVigil_EnhancedAccuracy from "./products/novavigil/pharmacovigilance/e
 import NovaVigil_EnhancedAccuracyWhite from "./products/novavigil/pharmacovigilance/enhanced-accuracy-and-compliance-white.svg";
 import NovaVigil_IntelligentAutomation from "./products/novavigil/pharmacovigilance/intelligent-autinomation-and-scalability.svg";
 import NovaVigil_IntelligentAutomationWhite from "./products/novavigil/pharmacovigilance/intelligent-automation-and-scalability-white.svg";
-import NovaVigil_UnifiedSafety from "./products/novavigil/pharmacovigilance/unifies-safety-data-sources.svg";
-import NovaVigil_UnifiedSafetyWhite from "./products/novavigil/pharmacovigilance/unifies-safety-white.svg";
+import NovaVigil_UnifiedSafety from "./products/novavigil/pharmacovigilance/unifies-safety-data-sources1.svg";
+import NovaVigil_UnifiedSafetyWhite from "./products/novavigil/pharmacovigilance/unifies-safety-white1.svg";
 
 import NovaVigil_DelayedICSR from "./products/novavigil/problem/delayed-icsr-detection.svg";
 import NovaVigil_FragmentedData from "./products/novavigil/problem/fragmented-data-sources.svg";
@@ -879,6 +893,20 @@ export const IMAGES = {
   HumanDigitisation_SMEs: HumanDigitisation_SMEs,
   HumanDigitisation_Banner: HumanDigitisation_Banner,
 
+
+EndtoEnd: EndtoEnd,
+Intelligent: Intelligent,
+Customised: Customised,
+Operational1: Operational1,
+Unified: Unified,
+
+
+EndtoEnd1: EndtoEnd1,
+Intelligent1: Intelligent1,
+Customised1: Customised1,
+Operational11: Operational11,
+Unified1: Unified1,
+
   // Talent Acquisition Keys
   Talent_Campus: Talent_Campus,
   Talent_Employer: Talent_Employer,
@@ -1138,6 +1166,7 @@ export const IMAGES = {
   Services: Services,
   Products: Products,
   Client_Banner: Client_Banner,
+    Client_Banner_mob: Client_Banner_mob,
   EXPERTISES_HOME: EXPERTISES_HOME,
   Standard_quality: Standard_quality,
 

@@ -47,7 +47,8 @@ export default function HumanCapitalDigitisationClient() {
             <Row className="mt-5">
                 <Col md={6} lg={4} className="mb-dflex">
                     <div className="challenges-box h-100" data-aos="fade-up">
-                        <Image src={IMAGES.HumanDigitisation_Multi} className="ComplexRegulations" alt="" />
+                        <Image src={IMAGES.EndtoEnd1} className="ComplexRegulations" alt="" />
+                         <Image src={IMAGES.EndtoEnd}  className="white-icon" alt="" />
                         <h6>End-to-End Digital Transformation</h6>
                         <p>Comprehensive digitisation of HR functions from employee data management and onboarding to performance, payroll, and analytics, driven by advanced platforms like Darwinbox and Microsoft integrations.</p>
                     </div>
@@ -55,7 +56,8 @@ export default function HumanCapitalDigitisationClient() {
                 
                 <Col md={6} lg={4} className="mb-dflex mt-2 mt-md-0">
                     <div className="challenges-box h-100" data-aos="fade-up">
-                        <Image src={IMAGES.HumanDigitisation_Robust} className="ComplexRegulations" alt="" />
+                        <Image src={IMAGES.Intelligent1} className="ComplexRegulations" alt="" />
+                         <Image src={IMAGES.Intelligent}  className="white-icon" alt="" />
                         <h6>Intelligent Workforce Management</h6>
                         <p> Mobile-first and AI-powered solutions enabling data-driven decisions, seamless workflows, and enhanced employee engagement across geographies.</p>
                     </div>                   
@@ -63,7 +65,8 @@ export default function HumanCapitalDigitisationClient() {
 
                  <Col md={6} lg={4} className="mb-dflex mt-2 mt-md-0">
                     <div className="challenges-box h-100" data-aos="fade-up">
-                        <Image src={IMAGES.HumanDigitisation_SMEs} className="ComplexRegulations" alt="" />
+                        <Image src={IMAGES.Customised1} className="ComplexRegulations" alt="" />
+                         <Image src={IMAGES.Customised}  className="white-icon" alt="" />
                         <h6>Customised HR Technology Solutions</h6>
                         <p>Advisory, implementation, and integration services tailored to each organisation’s structure, industry, and scalability needs.</p>
                     </div>
@@ -71,7 +74,8 @@ export default function HumanCapitalDigitisationClient() {
                 
                 <Col md={6} lg={4} className="mb-dflex mt-2 mt-md-4">
                     <div className="challenges-box h-100" data-aos="fade-up">
-                        <Image src={IMAGES.HumanDigitisation_Audit} className="ComplexRegulations" alt="" />
+                        <Image src={IMAGES.Operational11} className="ComplexRegulations" alt="" />
+                         <Image src={IMAGES.Operational1}  className="white-icon" alt="" />
                         <h6>Operational Excellence & Compliance</h6>
                         <p>Digitised HR processes ensure transparency, accuracy, and regulatory alignment, reducing administrative burden and operational risk.</p>
                     </div>                   
@@ -79,7 +83,8 @@ export default function HumanCapitalDigitisationClient() {
 
                  <Col md={6} lg={4} className="mb-dflex mt-2 mt-md-4">
                     <div className="challenges-box h-100" data-aos="fade-up">
-                        <Image src={IMAGES.HumanDigitisation_Effectively} className="ComplexRegulations" alt="" />
+                        <Image src={IMAGES.Unified1} className="ComplexRegulations" alt="" />
+                         <Image src={IMAGES.Unified}  className="white-icon" alt="" />
                         <h6>Unified Experience</h6>
                         <p> Delivering a seamless, people-first digital ecosystem that connects employees, HR, and leadership for real-time collaboration and visibility.</p>
                     </div>                   

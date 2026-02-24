@@ -11,7 +11,6 @@ import api, { domainUrl } from "../../../lib/axios";
 // The image path from the API (e.g., /uploads/blog/...) will be appended to this.
 const IMAGE_BASE_URL = domainUrl; // THIS IS NOW DYNAMICALLY IMPORTED
 
-
 export default function Highlightblog() {
     const [blogs, setBlogs] = useState([]);
     const [isLoading, setIsLoading] = useState(true);

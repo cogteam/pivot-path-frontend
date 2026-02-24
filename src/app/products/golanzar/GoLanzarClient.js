@@ -9,6 +9,22 @@ import Bloghomepage from "@/app/blogshomepage/page";
 import Commonfrom from "@/components/Productfrom/Commonfrom/page";
 import { IMAGES } from "@/assets/images/index.js"; 
 
+import centralised from '../../../assets/images/products/golanzar/benifits/TCC/centralised-task-management.webp';
+import integration from '../../../assets/images/products/golanzar/benifits/TCC/integration-with-enterprise.webp';
+import milestone from '../../../assets/images/products/golanzar/benifits/TCC/milestone-tracking.webp';
+import seamless from '../../../assets/images/products/golanzar/benifits/TCC/seamless-communication.webp'
+
+import Automated from '../../../assets/images/products/golanzar/benifits/iar/1.webp';
+import RealTime from '../../../assets/images/products/golanzar/benifits/iar/2.webp';
+import Customisable from '../../../assets/images/products/golanzar/benifits/iar/3.webp';
+import Predictive from '../../../assets/images/products/golanzar/benifits/iar/4.webp';
+
+import Unified from '../../../assets/images/products/golanzar/benifits/flso/1.webp';
+import Automated1 from '../../../assets/images/products/golanzar/benifits/flso/2.webp';
+import Centralised1 from '../../../assets/images/products/golanzar/benifits/flso/3.webp';
+import RealTime1 from '../../../assets/images/products/golanzar/benifits/flso/4.webp'
+
+
 export default function GoLanzarClient() {
 
 
@@ -20,7 +36,7 @@ export default function GoLanzarClient() {
     infinite: true,
     speed: 1200,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 4000,
     arrows: false,
@@ -225,7 +241,7 @@ export default function GoLanzarClient() {
                                 <Slider {...settings} className="benefits-slider">
                                     <div className="benefits-box">
                                         <div className="overflow-hidden">
-                                            <Image src={IMAGES.GoLanzar_CentralisedTaskManagement} alt="benifits" className="w-100" />
+                                            <Image src={centralised} alt="benifits" className="w-100" />
                                         </div>
                                         <div className="benefits-hidden">
                                             <h6>Centralised task management and Ownership</h6>
@@ -234,7 +250,7 @@ export default function GoLanzarClient() {
                                     </div>
                                     <div className="benefits-box">
                                         <div className="overflow-hidden">
-                                            <Image src={IMAGES.GoLanzar_SeamlessCommunication} alt="benifits" className="w-100" />
+                                            <Image src={seamless} alt="benifits" className="w-100" />
                                         </div>
                                         <div className="benefits-hidden">
                                             <h6>Seamless communication channels</h6>
@@ -243,7 +259,7 @@ export default function GoLanzarClient() {
                                     </div>
                                     <div className="benefits-box">
                                         <div className="overflow-hidden">
-                                            <Image src={IMAGES.GoLanzar_MilestoneTracking} alt="benifits" className="w-100" />
+                                            <Image src={milestone} alt="benifits" className="w-100" />
                                         </div>
                                         <div className="benefits-hidden">
                                             <h6>Milestone Tracking with Progress Visibility</h6>
@@ -252,7 +268,7 @@ export default function GoLanzarClient() {
                                     </div>
                                      <div className="benefits-box">
                                         <div className="overflow-hidden">
-                                            <Image src={IMAGES.GoLanzar_IntegrationEnterprise} alt="benifits" className="w-100" />
+                                            <Image src={integration} alt="benifits" className="w-100" />
                                         </div>
                                         <div className="benefits-hidden">
                                             <h6>Integration with enterprise systems (ERP, QMS, LIMS)</h6>
@@ -274,7 +290,7 @@ export default function GoLanzarClient() {
                                 <Slider {...settings} className="benefits-slider">
                                     <div className="benefits-box">
                                         <div className="overflow-hidden">
-                                            <Image src={IMAGES.GoLanzar_CentralisedTaskManagement} alt="benifits" className="w-100" />
+                                            <Image src={Automated} alt="benifits" className="w-100" />
                                         </div>
                                         <div className="benefits-hidden">
                                             <h6>Automated Workflows and Task Execution
@@ -285,7 +301,7 @@ export default function GoLanzarClient() {
                                     </div>
                                     <div className="benefits-box">
                                         <div className="overflow-hidden">
-                                            <Image src={IMAGES.GoLanzar_SeamlessCommunication} alt="benifits" className="w-100" />
+                                            <Image src={RealTime} alt="benifits" className="w-100" />
                                         </div>
                                         <div className="benefits-hidden">
                                             <h6>Real-Time Alerts and Escalations
@@ -296,7 +312,7 @@ export default function GoLanzarClient() {
                                     </div>
                                     <div className="benefits-box">
                                         <div className="overflow-hidden">
-                                            <Image src={IMAGES.GoLanzar_MilestoneTracking} alt="benifits" className="w-100" />
+                                            <Image src={Customisable} alt="benifits" className="w-100" />
                                         </div>
                                         <div className="benefits-hidden">
                                             <h6>Customisable Dashboards and Reports
@@ -307,7 +323,7 @@ export default function GoLanzarClient() {
                                     </div>
                                      <div className="benefits-box">
                                         <div className="overflow-hidden">
-                                            <Image src={IMAGES.GoLanzar_IntegrationEnterprise} alt="benifits" className="w-100" />
+                                            <Image src={Predictive} alt="benifits" className="w-100" />
                                         </div>
                                         <div className="benefits-hidden">
                                             <h6>Predictive Insights for Proactive Planning
@@ -331,7 +347,7 @@ export default function GoLanzarClient() {
                                 <Slider {...settings} className="benefits-slider">
                                     <div className="benefits-box">
                                         <div className="overflow-hidden">
-                                            <Image src={IMAGES.GoLanzar_CentralisedTaskManagement} alt="benifits" className="w-100" />
+                                            <Image src={Unified} alt="benifits" className="w-100" />
                                         </div>
                                         <div className="benefits-hidden">
                                             <h6>Unified Workflows
@@ -342,7 +358,7 @@ export default function GoLanzarClient() {
                                     </div>
                                     <div className="benefits-box">
                                         <div className="overflow-hidden">
-                                            <Image src={IMAGES.GoLanzar_SeamlessCommunication} alt="benifits" className="w-100" />
+                                            <Image src={Automated1} alt="benifits" className="w-100" />
                                         </div>
                                         <div className="benefits-hidden">
                                             <h6>Automated Processes
@@ -353,7 +369,7 @@ export default function GoLanzarClient() {
                                     </div>
                                     <div className="benefits-box">
                                         <div className="overflow-hidden">
-                                            <Image src={IMAGES.GoLanzar_MilestoneTracking} alt="benifits" className="w-100" />
+                                            <Image src={Centralised1} alt="benifits" className="w-100" />
                                         </div>
                                         <div className="benefits-hidden">
                                             <h6>Centralised Data</h6>
@@ -363,7 +379,7 @@ export default function GoLanzarClient() {
                                     </div>
                                      <div className="benefits-box">
                                         <div className="overflow-hidden">
-                                            <Image src={IMAGES.GoLanzar_IntegrationEnterprise} alt="benifits" className="w-100" />
+                                            <Image src={RealTime1} alt="benifits" className="w-100" />
                                         </div>
                                         <div className="benefits-hidden">
                                             <h6>Real-Time Insights

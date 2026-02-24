@@ -20,10 +20,10 @@ import Applied from "../assets/images/Applied-scientific.svg";
 import Execution from "../assets/images/logo/Execution-focused.svg";
 import Pharma from "../assets/images/logo/Pharma.svg";
 import Regulatory from "../assets/images/logo/Regulatory.svg";
-import Capture1 from "../assets/images/capture1.webp";
-import Capture2 from "../assets/images/capture2.webp";
 
 import circle from "../assets/images/circle.svg"
+import capture1 from "../assets/images/capture1.webp"
+import capture2 from "../assets/images/capture2.webp"
 
 import { IMAGES } from "../assets/images";
 const ServicesSection = dynamic(() => import("@/components/ServicesSection/page"), { 
@@ -111,10 +111,10 @@ export default function Home() {
   const sectionRef = useRef(null);
 
   // OPTIMIZATION 2: Intersection Observer for Heavy Blog Section
-  // const { ref: insightsRef, inView: insightsVisible } = useInView({
-  //   triggerOnce: true,
-  //   rootMargin: "300px 0px",
-  // });
+  const { ref: insightsRef, inView: insightsVisible } = useInView({
+    triggerOnce: true,
+    rootMargin: "300px 0px", // Load slightly earlier for smoother UX
+  });
 
   // Slider Settings
   // Memoized settings aren't strictly necessary here but good practice
@@ -305,7 +305,7 @@ export default function Home() {
       {/* AI NEXT GEN SECTION - Static Content doesn't need hydration usually, but AOS needs it */}
       <div className="grey pad80 pb-0">
         <Container>
-          <h2 className="h4 text-center" data-aos="fade-up">AI POWERED NEXT-GEN <br /><span>DIGITAL INNOVATIONS</span></h2>
+          <h2 className="h4 text-center" data-aos="fade-up">AI-POWERED NEXT-GEN <br /><span>DIGITAL INNOVATIONS</span></h2>
           <p className="text-center col-md-8 m-auto" data-aos="fade-up">
             We solve real-world challenges in life sciences through purpose-built solutions powered by AI, machine learning, and modern technology stacks. With deep tech expertise and a digital-forward mindset, we’re reshaping the future of life sciences.
           </p>
@@ -360,35 +360,23 @@ export default function Home() {
       <PartnersSection />
 
       {/* BLOGS SECTION - Uses Intersection Observer */}
-      {/* <div className="grey pad80 pt-0" ref={insightsRef} style={{ minHeight: "400px" }}>
+      <div className="grey pad80 pt-0" ref={insightsRef} style={{ minHeight: "400px" }}>
         <Container>
           <h2 className="h4 text-center" data-aos="fade-up">INSIGHTS THAT <br /><span>DRIVE IMPACT</span></h2>
+
+             
+
+
+
           <div className="row mt-5">
-            {insightsVisible && <LatestCaseStudy />}
+             <Image src={capture1} className="w-100 h-auto mb-4" />
+              <Image src={capture2} className="w-100 h-auto" />
+            {/* {insightsVisible && <LatestCaseStudy />}
             {insightsVisible && <LatestWhitePapers />}
             
             <Col md={12}>
               {insightsVisible && <Bloghomepage />}
-            </Col>
-           
-          </div>
-        </Container>
-      </div> */}
-
-
-      <div className="grey pad80 pt-0" style={{ minHeight: "400px" }}>
-        <Container>
-          <h2 className="h4 text-center" data-aos="fade-up">INSIGHTS THAT <br /><span>DRIVE IMPACT</span></h2>
-          <div className="row mt-5">
-          
-            <Col md={12}>
-              <Image src={Capture1} alt="capture" className="w-100 h-100" />
-
-            </Col>
-            <Col md={12} className="mt-5">
-              <Image src={Capture2} alt="capture" className="w-100 h-100" />
-
-            </Col>
+            </Col> */}
           </div>
         </Container>
       </div>

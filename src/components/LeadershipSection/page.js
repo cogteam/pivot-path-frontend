@@ -18,7 +18,7 @@ export default function LeadershipSection() {
   }, []);
 
   // Split team into initial view (e.g., first 6) and hidden view
-  const INITIAL_COUNT = 6;
+  const INITIAL_COUNT = 13;
   const initialTeam = TEAM_DATA.slice(0, INITIAL_COUNT);
   const hiddenTeam = TEAM_DATA.slice(INITIAL_COUNT);
 
@@ -66,9 +66,9 @@ export default function LeadershipSection() {
     <div className="grey pad80 leadership-wrapper" id="leadership">
       <Container>
         <h2 className="h4 text-center" data-aos="fade-up">MEET THE <span>LEADERSHIP TEAM</span></h2>
-        <p className="col-lg-7 text-center m-auto" data-aos="fade-up">
+        {/* <p className="col-lg-7 text-center m-auto" data-aos="fade-up">
           At PivotPath, our core values form the bedrock of our actions.
-        </p>
+        </p> */}
 
         {/* Visible Team */}
         <Row className="mt-4 mt-md-5">
@@ -88,7 +88,7 @@ export default function LeadershipSection() {
           <Row>
             <Col md={12}>
                {/* Optional Header inside toggle */}
-               <h2 className="h4 text-center py-4 py-md-5">Delivery Practices Leader</h2>
+               <h2 className="h4 text-center py-4 py-md-5">Our Delivery Practice Leaders</h2>
             </Col>
             {hiddenTeam.map((member, index) => (
               <Col md={6} lg={4} key={index + INITIAL_COUNT}>

@@ -60,15 +60,64 @@ export default function MobileClinicalClient() {
             <div className="banner-inner">
                 <Container className='d-flex align-items-center h-100 '>
                 <div>
-                <h1 className='h4 ' data-aos="fade-up">Mobile    <span>Clinical
-</span></h1>
+                <h1 className='h4 ' data-aos="fade-up">Mobile    <span>Clinical Services</span></h1>
                     <p data-aos="fade-up" className="col-md-7">Operating across 20+ sites in India with 80+ trained study nurses, we deliver mobile clinical services ensuring patient convenience, protocol adherence, and high standards of quality and compliance.
 </p>
                 </div>
             </Container>
             </div>
         </div>
+ <div className="grey pad80 challenges-wrapper service-value">
+        <Container>
+            <h2 className="h4 text-center" data-aos="fade-up">OUR VALUE PROPOSITION</h2>
+            <Row className="mt-5">
+                <Col md={6} lg={4} className="mb-dflex">
+                    <div className="challenges-box h-100" data-aos="fade-up">
+                        <Image src={IMAGES.Mobile_Standardised} className="ComplexRegulations" alt="" />
+                        <Image src={IMAGES.Mobile_Standardisedicon} className="white-icon" alt="" />
+                        <h6>Standardised Procedures</h6>
+                        <p>Well-defined SOPs implemented at every stage to ensure consistency and compliance.</p>
+                    </div>
+                </Col>
+                
+                <Col md={6} lg={4} className="mb-dflex mt-2 mt-md-0">
+                    <div className="challenges-box h-100" data-aos="fade-up">
+                        <Image src={IMAGES.Mobile_Qualified} className="ComplexRegulations" alt="" />
+                         <Image src={IMAGES.Mobile_Qualifiedicon} className="white-icon" alt="" />
+                        <h6>Qualified Expertise</h6>
+                        <p>GCP-trained nursing professionals skilled in clinical documentation and patient care.</p>
+                    </div>                   
+                </Col>
 
+                 <Col md={6} lg={4} className="mb-dflex mt-2 mt-md-0">
+                    <div className="challenges-box h-100" data-aos="fade-up">
+                        <Image src={IMAGES.Mobile_Quality} className="ComplexRegulations" alt="" />
+                         <Image src={IMAGES.Mobile_Qualityicon} className="white-icon" alt="" />
+                        <h6>Quality and Precision</h6>
+                        <p>Commitment to delivering high-quality data collection and patient care with accuracy and reliability.</p>
+                    </div>
+                </Col>
+
+                <Col md={6} lg={4} className="mb-dflex mt-2 mt-md-4">
+                    <div className="challenges-box h-100" data-aos="fade-up">
+                        <Image src={IMAGES.Mobile_Regulatory} className="ComplexRegulations" alt="" />
+                         <Image src={IMAGES.Mobile_Regulatoryicon} className="white-icon" alt="" />
+                        <h6>Regulatory Compliance</h6>
+                        <p>Maintenance of records and patient data in alignment with international standards and sponsor expectations.</p>
+                    </div>
+                </Col>
+
+                <Col md={6} lg={4} className="mb-dflex mt-2 mt-md-4">
+                    <div className="challenges-box h-100" data-aos="fade-up">
+                        <Image src={IMAGES.Mobile_Transparent} className="ComplexRegulations" alt="" />
+                         <Image src={IMAGES.Mobile_Transparenticon} className="white-icon" alt="" />
+                        <h6>Transparent Collaboration</h6>
+                        <p>Timely sharing of reports and updates in accordance with sponsor agreements.</p>
+                    </div>
+                </Col>
+            </Row>
+        </Container>
+    </div>
  <div className="grey pad80">
         <Container>
             <h2 className="h4 text-center" data-aos="fade-up"> Mobile Clinical Services Flow</h2>
@@ -167,57 +216,7 @@ export default function MobileClinicalClient() {
         </Container>
     </div>
      
- <div className="grey pad80 challenges-wrapper pt-0 service-value">
-        <Container>
-            <h2 className="h4 text-center" data-aos="fade-up">OUR VALUE PROPOSITION</h2>
-            <Row className="mt-5">
-                <Col md={6} lg={4} className="mb-dflex">
-                    <div className="challenges-box h-100" data-aos="fade-up">
-                        <Image src={IMAGES.Mobile_Standardised} className="ComplexRegulations" alt="" />
-                        <Image src={IMAGES.Mobile_Standardisedicon} className="white-icon" alt="" />
-                        <h6>Standardised Procedures</h6>
-                        <p>Well-defined SOPs implemented at every stage to ensure consistency and compliance.</p>
-                    </div>
-                </Col>
-                
-                <Col md={6} lg={4} className="mb-dflex mt-2 mt-md-0">
-                    <div className="challenges-box h-100" data-aos="fade-up">
-                        <Image src={IMAGES.Mobile_Qualified} className="ComplexRegulations" alt="" />
-                         <Image src={IMAGES.Mobile_Qualifiedicon} className="white-icon" alt="" />
-                        <h6>Qualified Expertise</h6>
-                        <p>GCP-trained nursing professionals skilled in clinical documentation and patient care.</p>
-                    </div>                   
-                </Col>
 
-                 <Col md={6} lg={4} className="mb-dflex mt-2 mt-md-0">
-                    <div className="challenges-box h-100" data-aos="fade-up">
-                        <Image src={IMAGES.Mobile_Quality} className="ComplexRegulations" alt="" />
-                         <Image src={IMAGES.Mobile_Qualityicon} className="white-icon" alt="" />
-                        <h6>Quality and Precision</h6>
-                        <p>Commitment to delivering high-quality data collection and patient care with accuracy and reliability.</p>
-                    </div>
-                </Col>
-
-                <Col md={6} lg={4} className="mb-dflex mt-2 mt-md-4">
-                    <div className="challenges-box h-100" data-aos="fade-up">
-                        <Image src={IMAGES.Mobile_Regulatory} className="ComplexRegulations" alt="" />
-                         <Image src={IMAGES.Mobile_Regulatoryicon} className="white-icon" alt="" />
-                        <h6>Regulatory Compliance</h6>
-                        <p>Maintenance of records and patient data in alignment with international standards and sponsor expectations.</p>
-                    </div>
-                </Col>
-
-                <Col md={6} lg={4} className="mb-dflex mt-2 mt-md-4">
-                    <div className="challenges-box h-100" data-aos="fade-up">
-                        <Image src={IMAGES.Mobile_Transparent} className="ComplexRegulations" alt="" />
-                         <Image src={IMAGES.Mobile_Transparenticon} className="white-icon" alt="" />
-                        <h6>Transparent Collaboration</h6>
-                        <p>Timely sharing of reports and updates in accordance with sponsor agreements.</p>
-                    </div>
-                </Col>
-            </Row>
-        </Container>
-    </div>
 
     <div className="grey2 pad80 sr-services">
         <Container>

@@ -43,9 +43,20 @@ export default function ClientsView() {
                                           priority // Keep priority for LCP
                                           placeholder="blur" // Adds a blur effect while loading (if imports are static)
                                           sizes="100vw"
+                                          className='client-banner'
                                           style={{ objectFit: 'cover' }}
                                        />
-                                       {/* Dark overlay to ensure text readability if image is bright */}
+                                       
+                                       <Image 
+                                          src={IMAGES.Client_Banner_mob} 
+                                          alt="Arcolab Innovation Center" 
+                                          fill 
+                                          priority // Keep priority for LCP
+                                          placeholder="blur" // Adds a blur effect while loading (if imports are static)
+                                          sizes="100vw"
+                                          className='d-none client-banner-mb'
+                                          style={{ objectFit: 'cover' }}
+                                       />
                                   </div>
                                   
                                   <Container className="d-flex align-items-center h-100 position-relative" style={{ zIndex: 1 }}>

@@ -506,6 +506,20 @@ padding: 30px;
 
 
 @media (max-width:767px) {
+   
+   .slick-slider .slick-dots li {
+    margin: 0 0 !important;
+}
+ .banner-home .slick-dots  li {
+    margin: 0 5px !important;
+}
+    .client-banner{
+        display: none;
+    }
+
+    .d-none.client-banner-mb{
+        display: block !important;
+    }
   .home-ai .slick-slider.col-9 {
          width: 100%;
     }

@@ -235,7 +235,8 @@ export default function TrackAndTraceClient() {
                 <div className="sr-tab-dlts d-flex flex-column justify-content-between align-items-start h-100">
                     <div>
                         <h3>Customized Handling</h3>
-                        <p className="pt-md-2"> Every alert is assigned to a dedicated Arcolab executive for <br className="d-none d-md-block"/>market-specific oversight and resolution.</p>
+                        <p className="pt-md-2"> Every alert is assigned to a dedicated resource executive for
+ <br className="d-none d-md-block"/>market-specific oversight and resolution.</p>
                     </div>
                     <a href="#expert-driven" onClick={scrollToForm} className="sr-btn mt-4 d-inline-block" style={{ cursor: 'pointer' }}>
                         <span>Connect with us</span>
